@@ -1,0 +1,77 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+  text-align: center;
+}
+
+#input {
+  width: 400px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  margin-top: 50px;
+
+}
+
+.form {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  width: 150px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+#title {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 50px;
+  text-align: center;
+}
+
+#question,
+#answer {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 50px;
+  font-style: bolder;
+  margin-bottom: 100px;
+}
+
+#place {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 700;
+  margin: 50px 0 25px;
+}
+.link a {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #04aa6d;
+  width: 150px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 50px 15px 20px 5px
+}
+
+.btn {
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #04aa6d;
+  width: 150px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 50px 15px 20px 5px
+}
